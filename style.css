@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&family=Tilt+Neon&display=swap');
 
 :root{
     --colorWhite: #FFFFFF;
     --background-color: #141A1A;
     --poppins-font: 'Poppins', sans-serif;
     --tilt-neon: 'Tilt Neon', cursive;
-    --blue: #0872BF;
+    --blue: #0872BF; 
+    --font-Inter: 'Inter', sans-serif;
+    --about-background: #fafafa;
 }
 
 *{
@@ -53,11 +55,14 @@
 .content_body{
     display: flex;
     justify-content: space-between;
+    height: auto;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .introduction{
     width: 80%;
-    padding: 4rem;
+    /* padding: 4rem; */
     margin: 0;
     color: var(--colorWhite);
     align-items: center;
@@ -65,16 +70,112 @@
     font-size: 1.4rem;
 }
 
-.introduction span, h1{
+.introduction span, h2{
     color: var(--blue);
     font-family: var(--tilt-neon);
 }
 
 .introduction p, h2{
     font-family: var(--poppins-font);
+    padding: 14px;
 }
 
-.image_container img{
-    height: auto;
+/* .image_container img{
+    height: 50%;
+    width: 20%;
     max-width: 100%;
+    color: var(--background-color);
+} */
+
+.content_socials{
+    color: var(--blue);
+    font-family: var(--poppins-font);
+    font-size: 18px;
+    margin: 2rem;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_socials button{
+    height: 3rem;
+    width: 10rem;
+    color: #FFFFFF;
+    font-size: 18px;
+    background: var(--blue);
+    margin-bottom: 2rem;
+    font-family: var(--font-Inter);
+}
+
+.content_socials button:hover{
+    cursor: grab;
+}
+
+.content_socials .socials a{
+    text-decoration: none;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+
+#about{
+    
+}
+
+.about_me{
+    /* width: 70%; */
+    background: var(--about-background);
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rebeccapurple;
+}
+.about_me h2{
+    color: var(--colorWhite);
+    font-family: var(--poppins-font);
+}
+
+.about_me i{
+    color: #FFD700;
+}
+
+.about_web{
+    display: flex;
+    justify-content: space-between;
+    color: var(--colorWhite);
+    padding: 3rem;
+    font-size: 20px;
+}
+.about_web h2{
+    color: var(--blue);
+    font-family: var(--font-Inter);
+    margin-bottom: 1.2rem;
+}
+
+.web_images{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.web_images img{
+    object-fit: contain;
+    height: auto; 
+    width: auto; 
+    max-width: 40px; 
+    max-height: 40px;
+}
+
+.UX_Images{
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.UX_Images img{
+    object-fit: contain;
+    height: auto; 
+    width: auto; 
+    max-width: 40px; 
+    max-height: 40px;
 }

@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvyn-Portfolio-Website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="page_body">
-        <div class="header">
+    <main class="page_body">
+        <nav class="header">
             <div class="header_logo">
                 <img src="./assets/Logo.svg" alt="Logo">
                 <p>MARVYN</p>
@@ -18,10 +20,10 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contacts</a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
 
         <div class="content_body">
             <div class="introduction">
@@ -31,9 +33,52 @@
                 <P>As a software Developer, my specialty is constructing outstanding digital experiences, occasionally incorporating design work. Currently, my focus is on crafting human-centered and accessible products.</P>
             </div>
             <div class="image_container">
-                <img src="./assets/marvyn.png" alt="">
+                <!-- <img src="./assets/marvyn.png" alt=""> -->
             </div>
         </div>
-    </div>
+        <div class="content_socials">
+            <button>Let's Chat</button>
+            <div class="socials">
+                <p>Check Out My :
+                    <a href="#"><i class="fa fa-brands fa-github"></i></a> 
+                    <a href="#"><i class="fa fa-brands fa-linkedin"></i></a> 
+                    <a href="#"><i class="fa fa-brands fa-twitter"></i></a> 
+                </p>
+            </div>
+        </div>
+        <section id="About" >
+            <div class="about_me">
+                <h2>About Me || What I Do</h2>
+                <div class="about_web">
+                    <div class="web">
+                        <h2>Full Stack Development</h2>
+                        <p><i class="fa fa-solid fa-bolt"></i> Building responsive website front end using JavaScript & ReactJS</p>
+                        <p><i class="fa fa-solid fa-bolt"></i> Creating application backend in Python, Django & Flask</p>
+                        <div class="web_images">
+                            <img src="./assets/html-5.png" alt="html-5">
+                            <img src="./assets/css-3.png" alt="css-3">
+                            <img src="./assets/bootstrap.png" alt="bootstrap">
+                            <img src="./assets/java-script.png" alt="java-script">
+                            <img src="./assets/atom.png" alt="ReactJS">
+                            <img src="./assets/python.png" alt="python">
+                            <img src="./assets/django.png" alt="Django">
+                        </div>
+                    </div>
+                    <div class="UX_Design">
+                        <h2>UI UX Design</h2>
+                        <p><i class="fa fa-solid fa-bolt"></i> Designing highly attractive user interface for mobile and web applications</p>
+                        <p><i class="fa fa-solid fa-bolt"></i> Creating the flow of application functionalities to optimize user experience</p>
+                        <div class="UX_Images">
+                            <img src="./assets/figma.png" alt="figma">
+                            <img src="./assets/illustrator.png" alt="illustrator">
+                            <img src="./assets/photoshop.png" alt="photoshop">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about_skills"></div>
+        </section>
+    </main>
 </body>
 </html>
