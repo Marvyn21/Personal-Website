@@ -118,10 +118,6 @@
     font-size: 1.5rem;
 }
 
-#about{
-    
-}
-
 .about_me{
     /* width: 70%; */
     background: var(--about-background);
@@ -131,6 +127,7 @@
     align-items: center;
     justify-content: space-between;
     border: 2px solid rebeccapurple;
+    margin-bottom: 4rem;
 }
 .about_me h2{
     color: var(--colorWhite);
@@ -179,3 +176,53 @@
     max-width: 40px; 
     max-height: 40px;
 }
+
+.contact__form{
+    width: 30%;
+    border: 2px solid blueviolet;
+    margin: 0 auto;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact__form label{
+    color: var(--colorWhite);
+    font-family: var(--tilt-neon);
+    font-size: 20px;
+}
+.contact__form-field > .contact__form-input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: #eee;
+    margin: 1.4rem;
+}
+
+.contact__form-field ::placeholder{
+    /* text-align: center; */
+    padding-left: 1.4rem;
+    font-size: 18px;
+}
+
+.contact__form-field textarea{
+    width: 300px;
+    height: 250px;
+    background-color: #eee;
+}
+
+.btn {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    width: 300px;
+  }
