@@ -126,7 +126,7 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     margin-bottom: 4rem;
 }
 .about_me h2{
@@ -179,7 +179,7 @@
 
 .contact__form{
     width: 30%;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     margin: 0 auto;
     /* display: block; */
     justify-content: center;
